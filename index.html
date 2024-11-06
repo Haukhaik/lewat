@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width initial-scale=1.0">
+        <title>login</title>
+
+    <style>
+        body {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url("D:\lerlec.jpg");
+            background-position: center;
+            background-size: cover;
+            
+            
+        }
+    </style>
+        <style>
+            .form-group {
+                margin-bottom: 15px;
+            }
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+            }
+        </style>
+
+
+    <body>
+        <h2>login</h2>
+        <div class="form-group">
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <button type="submit">Login</button>
+              </form>
+        </div>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault(); // Mencegah form refresh halaman
+
+      // Ambil nilai username dan password
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      // Simulasi validasi login sederhana
+      if (username === 'hauk' && password === '16') {
+        alert('Login berhasil!');
+        window.location.href = "web.html"; // Berpindah ke halaman dashboard
+      } else {
+        alert('Username atau password salah.');
+      }
+    });
+  </script>
+</body>
+   
+    
+           
+   
+
+    
+
+       
+    </head>
+</html>
+  
