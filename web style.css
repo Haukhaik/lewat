@@ -1,6 +1,6 @@
 :root{
-    --text-color--: black;
-    --text-color-blend--: black;
+    --text-color--: white;
+    --text-color-blend--: red;
     --back-up-color--: black;
 }
 *{
@@ -87,7 +87,7 @@ button:hover{
     padding-bottom: 30px;
 }
 .Hobi-container p{
-    color: black;
+    color: white;
     padding-bottom: 20px
 }    
 .home-container h2{
@@ -96,6 +96,6 @@ button:hover{
     padding-bottom: 30px;
 }
 .home-container p{
-    color: black;
+    color: white;
     padding-bottom: 20px;
 }
