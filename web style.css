@@ -22,7 +22,7 @@ ul{
     gap: 3rem;
 }
 li a{
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
@@ -65,7 +65,7 @@ button:hover{
     padding-bottom: 30px;
 }
 .home-container p{
-    color: black;
+    color: white;
     padding-bottom: 20px;
 }
 .explore{
